@@ -27,7 +27,7 @@ public class Main extends Application {
         mirrorsY = new double[]{100., 100., 100. + Math.sqrt(3) * 300.};
 
         slider = new Slider(left, right, (left+right)/2);
-        slider.setSnapToTicks(true);
+        slider.setSnapToTicks(false);
         //slider.setMinorTickCount(9999);
         slider.setBlockIncrement(0.001);
         slider.setShowTickMarks(true);
